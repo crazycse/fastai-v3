@@ -15,7 +15,10 @@ export_file_url = 'https://www.dropbox.com/s/x5ch9e0fruycjc0/export.pkl?raw=1'
 
 export_file_name = 'export.pkl'
 
-classes=['daisy','dandelion','roses','sunflowers','tulips']
+#classes=['daisy','dandelion','roses','sunflowers','tulips']
+
+classes = ['papaya', 'coconut', 'sugarcane', 'roses', 'cotton', 'sunflowers', 'banana', 'tea', 'paddy', 'corn']
+
 path = Path(__file__).parent
 
 app = Starlette()
